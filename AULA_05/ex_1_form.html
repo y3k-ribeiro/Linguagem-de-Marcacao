@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="UTF-8">
+		<title>Exercicio 1</title>
+	</head>
+
+	<body>
+	<form action="#" method="POST">
+
+		<label for="codigo">Código:</label>
+		<input type="number" id="codigo" name="codigo" value="0" disabled>
+		<br><br>
+
+		<label for="contrato">N° do contrato:</label>
+		<input type="number" id="contrato" name="contrato" required>
+
+		<label for="numero">N° da loja:</label>
+		<input type="number" id="numero" name="numero" required>
+		<br><br>
+
+		<label for="data">Data:</label>
+		<input type="date" id="data" name="data" required>
+		<br><br>
+
+		<label for="operadora">Operadora:</label>
+		<select name="opradora" id="turma" required>
+		<option value="selecione"></option>
+		<option value="claro">CLARO</option>
+		<option value="tim">TIM</option>
+		<option value="oi">Oi</option>
+		<option value="vivo">VIVO</option>
+		</select>
+		<br><br>
+
+		<label for="filial">Filial:</label>
+		<select name="filial" id="filial" required>
+		<option value="selecione"></option>
+		<option value="centralizadas">Centralizada</option>
+		<option value="descentralizadas">Descentralizada</option>
+		</select>
+		<br><br>
+
+		<label for="matriz">Matriz:</label>
+		<select name="matriz" id="matriz" required>
+		<option value="selecione"></option>
+		<option value="quadradada">Quadrada</option>
+		<option value="indentidade">Indentidade</option>
+		<option value="nula">Nula</option>
+		<option value="transposta">Transposta</option>
+		</select>
+		<br><br>
+
+
+		<label for="status">Status do contrato:</label>
+		<select name="status" id="status" required>
+		<option value="ativo">Ativo</option>
+		<option value="inativo">Inativo</option>
+		</select>
+		<input type="checkbox" id="condicao" name="condicao">Conciliação consolidada  Permitir conciliar manualmente quando há variação de até</input>
+		<input type="number" id="valor" name="avlor" value="0.00" disabled>
+		<br><br>
+
+		<label for="origem">Indentificar comprovante por</label>
+		<select name="origem" id="origem" required>
+		<option value="ativo">Numero de autorização</option>
+		</select>
+		<input type="checkbox" id="remover" name="remover">Remover zeros a esquerda do N° de comprovante</input>
+		<input type="checkbox" id="validar" name="validar">Validar valores na condição automática</input>
+		<br><br>
+
+		<input type="checkbox" id="remover" name="remover">Usar Campo de usuiario[Data de transação do cartão] do contas a receber para indentificar o comprovante na conciliação </input>
+		<br><br>
+		<input type="checkbox" id="remover" name="remover">Gerar contas a receber por conta para copmprovantes não indentificados</input>
+		<input type="checkbox" id="remover" name="remover">Contas a receber agrupado</input >
+		<br><br>
+		<input type="checkbox" id="remover" name="remover">Usar projeto do cadastro de equipamento</input>
+		<input type="checkbox" id="remover" name="remover">LCM agrupado de comprovante de cartão</input >
+		<br><br>
+
+
+		<label for="codigo">Cartão:</label>
+		<input type="text" id="codigo" name="codigo" value="Não informado" disabled>
+		<br><br>
+
+		<label for="codigo">Forma de pagamento:</label>
+		<input type="text" id="codigo" name="codigo" value="Não informado" disabled>
+		<br><br>
+
+		<p><b>Contabilização</b></p>
+		<label for="provisao">Conta de provisão</label>
+		<input type="numer" id="provisao" name="provisao" >
+		<input type="text" id="provisao" name="provisao" >
+		<br><br>
+
+		<label for="banco">Conta do Banco</label>
+		<input type="numer" id="banco" name="banco" >
+		<input type="text" id="banco" name="banco" >
+		<br><br>
+
+		<label for="comissao">Conta para comissao</label>
+		<input type="numer" id="comissao" name="comissao" >
+		<input type="text" id="comissao" name="comissao" >
+		<br><br>
+
+		<label for="cancelamento">Conta para cancelamento</label>
+		<input type="numer" id="cancelamento" name="cancelamento" >
+		<input type="text" id="cancelamento" name="cancelamento" >
+		<br><br>
+
+		<label for="antecipa">Conta de antecipação</label>
+		<input type="numer" id="antecipa" name="antecipa" >
+		<input type="text" id="antecipa" name="antecipa" >
+		<br><br>
+
+		<label for="ajuste">Conta de ajuste debito</label>
+		<input type="numer" id="ajuste" name="ajuste" >
+		<input type="text" id="ajuste" name="ajuste" >
+		<br><br>
+
+		<label for="credito">Conta de ajuste Crédito</label>
+		<input type="numer" id="credito" name="credito" >
+		<input type="text" id="credito" name="credito" >
+		<br><br>
+
+		<label for="compensacao">Conta de compensação</label>
+		<input type="numer" id="compensacao" name="compensacao" >
+		<input type="text" id="compensacao" name="compensacao" >
+		<br><br>
+
+		<label for="despesas">Conta de despesas de aluguel</label>
+		<input type="numer" id="despesas" name="despesas" >
+		<input type="text" id="despesas" name="despesas" >
+		<br><br>
+
+		<input style="background-color:#F4D675" type="submit" value="Inserir">
+		<input style="background-color:#F4D675" type="submit" value="Cancelar">
+		<input style="background-color:#F4D675" type="submit" value="Logar">
+
+
+	</form>
+</body>
+</html>
+			
