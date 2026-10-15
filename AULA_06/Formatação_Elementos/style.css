@@ -1,0 +1,107 @@
+*{
+    margin: 0; /* espaço externo */
+    padding: 0; /* espaço interno */
+    font-family: Arial;
+}
+main{
+    /* borda sólida de 1px na cor cinza */
+    border: 1px solid gray;
+    border-radius: 35px;
+    /* espaço externo entre o elemento e a borda */
+    margin:35px;
+        /* espaço externo entre o elemento e a borda */
+    padding: 10px;
+}
+h1{
+    /* espaço externo entre o elemento e a borda */
+    padding: 8px;
+    text-align: center;
+    color: #4caf50;
+    /* transforma em Letra maiúscula */
+    text-transform: uppercase;
+}
+#texto{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height:1.5 ;
+}
+.primeiro{
+    color: #7f00ff;
+}
+/* Mudar a cor do link ao passar o mouse */
+.primeiro:hover{
+    color: #ffcc00;
+}
+#texto:hover{
+    font-size: 2px;
+}
+.segundo:hover{
+    font-size: 150%;
+}
+.terceiro:hover{
+    background-color: #fc8eac;
+}
+.quarto:hover{
+    font-family: monospace;
+}
+.quinto:hover{
+    text-decoration: none;
+}
+body{
+    background-color: antiquewhite;
+}
+main{
+    background-color: white;
+}
+img{
+    width: 50%;
+    /* Técnica para centralizar TUDO*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#article-central{
+    border:1px solid gray;
+    padding: 50px;
+    background-color: #708090;
+    color: #fff;
+}
+ul.a{
+    list-style-type: square;
+}
+.b li{
+    font-family: 'Courier New';
+}
+ol.c{
+    list-style-type: upper-roman;
+}
+ol.d{
+    list-style-type: lower-greek;
+}
+#tabela-estilosa{
+    font-family: Arial;
+    border-collapse: collapse; /*borda com uma linha*/
+    width:100%;
+}
+#tabela-estilosa td, #tabela-estilosa th{
+    border:1px solid #DDD;
+    padding: 8px;
+}
+/*Linha zebrada na tabela */
+#tabela-estilosa tr:nth-child(even){
+    background-color: #f2f2f2;
+    color:#000
+}
+/*Mudar cor da linha ao passar o mouse */
+#tabela-estilosa tr:hover{
+    background-color: #DDD;
+    color:#000
+}
+#tabela-estilosa th{
+    padding-top:12px ; /*espaço interno de cima*/
+    padding-bottom: 12 px; /*espaço interno de baixo*/
+    background-color: #383f46;
+    color: #FFF
+}
+     
