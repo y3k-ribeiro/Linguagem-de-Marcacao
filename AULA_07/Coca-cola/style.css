@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    background-color: #ff1728;
+}
+
+nav .active {
+    background-color: #ff1728;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 0;
+    width: 210px;
+    z-index: 10;
+}
+
+.submenu:hover .menu {
+    display: block;
+}
+
+.menu li {
+    display: block;
+    width: 100%;
+}
+
+.principal {
+    width: 98%;
+    margin: 18px auto;
+    padding: 15px;
+}
+
+.inicio img {
+    width: 400px;
+    height: auto;
+}
+
+.cadastro {
+    background-color: #d0d0d0;
+    border: 1px solid #999;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.principal h1 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.principal h2 {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 13px;
+}
+
+th {
+    background-color: #ff1728;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #a90000;
+}
+
+td {
+    padding: 7px;
+    border: 1px solid #999;
+    text-align: left;
+    color: #222;
+}
+
+tr:nth-child(even) {
+    background-color: #ffbdb8;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+tr:first-child th {
+    background-color: #ff1728;
+    color: white;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+form select,
+form textarea {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="range"] {
+    width: 250px;
+    max-width: 100%;
+}
+
+form input[type="color"] {
+    display: block;
+    width: 55px;
+    height: 30px;
+}
+
+form h2 {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.opcoes label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.confirmacao {
+    margin-top: 20px;
+}
+
+.principal {
+    width: 98%;
+    margin: 18px auto;
+    padding: 15px;
+}
+
+.cadastro {
+    margin: 20px auto;
+    background-color: #d1d5db; 
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+    padding: 20px 25px 30px 25px;
+}
