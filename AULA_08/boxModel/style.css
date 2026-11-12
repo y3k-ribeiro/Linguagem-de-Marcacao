@@ -1,0 +1,38 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    border: 2px solid #FF0000;
+    /* padding - espaço interno*/
+    padding-top:30px ;
+    padding-left: 40px;
+    padding-bottom: 60px;
+    padding-right: 100px;
+
+    /* margin - espaço externo*/
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+.box2{
+    border: 5px solid #000fff;
+    /*padding - espaço interno*/
+    padding-top: 10%;
+    padding-left: 50%;
+    padding-bottom: 15%;
+
+    /* margin - espaço externo*/
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.box3{
+    border-left: 10px solid #ff00ff;
+    border-top: 10px dashed #700271;
+    /*Ordem: top    right   bottom  left*/
+    /*Ordem: cima   direita  baixo  esquerda*/
+    padding: 10% 5% 30% 15%;
+    margin: 5% 5% 5% 10%;
+}
